@@ -1,0 +1,3 @@
+D:/mastering-4-critical-Cpp-skills/cmake-build-debug/CMakeFiles/mastering_4_critical_Cpp_skills.dir
+D:/mastering-4-critical-Cpp-skills/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/mastering-4-critical-Cpp-skills/cmake-build-debug/CMakeFiles/rebuild_cache.dir

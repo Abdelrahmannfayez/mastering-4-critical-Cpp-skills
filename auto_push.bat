@@ -1,0 +1,9 @@
+@echo off
+echo Adding changes...
+git add .
+echo Committing changes...
+git commit -m "Auto-commit: Add project files"
+echo Pushing changes...
+git push origin main
+echo Done.
+pause
