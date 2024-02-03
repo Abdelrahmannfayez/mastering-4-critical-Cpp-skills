@@ -49,8 +49,8 @@ cmake_ninja_workdir = D$:/mastering-4-critical-Cpp-skills/cmake-build-debug/
 
 build cmake_object_order_depends_target_mastering_4_critical_Cpp_skills: phony || CMakeFiles/mastering_4_critical_Cpp_skills.dir
 
-build CMakeFiles/mastering_4_critical_Cpp_skills.dir/array_p1.cpp.obj: CXX_COMPILER__mastering_4_critical_Cpp_skills_unscanned_Debug D$:/mastering-4-critical-Cpp-skills/array$ p1.cpp || cmake_object_order_depends_target_mastering_4_critical_Cpp_skills
-  DEP_FILE = CMakeFiles\mastering_4_critical_Cpp_skills.dir\array_p1.cpp.obj.d
+build CMakeFiles/mastering_4_critical_Cpp_skills.dir/array_problems.cpp.obj: CXX_COMPILER__mastering_4_critical_Cpp_skills_unscanned_Debug D$:/mastering-4-critical-Cpp-skills/array$ problems.cpp || cmake_object_order_depends_target_mastering_4_critical_Cpp_skills
+  DEP_FILE = CMakeFiles\mastering_4_critical_Cpp_skills.dir\array_problems.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\mastering_4_critical_Cpp_skills.dir
   OBJECT_FILE_DIR = CMakeFiles\mastering_4_critical_Cpp_skills.dir
@@ -63,7 +63,7 @@ build CMakeFiles/mastering_4_critical_Cpp_skills.dir/array_p1.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable mastering_4_critical_Cpp_skills.exe
 
-build mastering_4_critical_Cpp_skills.exe: CXX_EXECUTABLE_LINKER__mastering_4_critical_Cpp_skills_Debug CMakeFiles/mastering_4_critical_Cpp_skills.dir/array_p1.cpp.obj
+build mastering_4_critical_Cpp_skills.exe: CXX_EXECUTABLE_LINKER__mastering_4_critical_Cpp_skills_Debug CMakeFiles/mastering_4_critical_Cpp_skills.dir/array_problems.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\mastering_4_critical_Cpp_skills.dir
