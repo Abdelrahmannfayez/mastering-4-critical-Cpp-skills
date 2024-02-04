@@ -1,10 +1,11 @@
 //
 // Created by A-Fayez on 2/3/2024.
 //
+#define  ll long long
 #include <iostream>
 
 using namespace std;
-
+//[1]
 //count sort algorithm
 void countsort() {
     int x;
@@ -25,6 +26,10 @@ void countsort() {
     }
 
 }
+
+//[2]
+//insert integer and return what is the value of this index
+//in Recaman's sequence
 void get_value_recaman(int x )
 {
     int freq[1000] = {0};
@@ -52,13 +57,38 @@ void get_value_recaman(int x )
 cout<<arr[x];
 }
 
-//insert integer and return what is the value of this index
-//in Recaman's sequence
+//[3]
+// max sum - sub array - k elements
+//Kadane's algorithm
+
+
+void kadane_Alg() {
+    ll n;
+    cin >> n;
+    ll arr[n];
+
+    for (ll i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    ll max_sum = arr[0], curr_sum = arr[0];
+
+    for (ll i = 1; i < n; i++) {
+        curr_sum = max(arr[i], curr_sum + arr[i]);
+        max_sum = max(max_sum, curr_sum);
+    }
+
+    cout << max_sum;
+}
+
+
+
+
 
 
 int main() {
     // countsort();
    //  get_value_recaman(7);
-
+  //  kadane_Alg();
 
 }
