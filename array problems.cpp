@@ -2,9 +2,11 @@
 // Created by A-Fayez on 2/3/2024.
 //
 #define  ll long long
+
 #include <iostream>
 
 using namespace std;
+
 //[1]
 //count sort algorithm
 void countsort() {
@@ -16,10 +18,10 @@ void countsort() {
     for (int i = 0; i < x; i++) {
         cin >> arr[i];
         freq[arr[i]]++;
-        if (max < arr[i]){max = arr[i];}
+        if (max < arr[i]) { max = arr[i]; }
     }
     cout << "sorted array: ";
-    for (int i = 0; i <1000; i++) {
+    for (int i = 0; i < 1000; i++) {
         for (int j = 0; j < freq[i]; j++) {
             cout << i << " ";
         }
@@ -30,23 +32,18 @@ void countsort() {
 //[2]
 //insert integer and return what is the value of this index
 //in Recaman's sequence
-void get_value_recaman(int x )
-{
+void get_value_recaman(int x) {
     int freq[1000] = {0};
     int arr[1000] = {0};
     arr[0] = 0;
     freq[0] = 1;
-    for (int i = 1; i <=x; i++)
-    {
+    for (int i = 1; i <= x; i++) {
 
         int temp = arr[i - 1] - (i - 1) - 1;
-        if (temp > 0 && freq[temp] == 0)
-        {
+        if (temp > 0 && freq[temp] == 0) {
             arr[i] = temp;
             freq[temp]++;
-        }
-        else
-        {
+        } else {
             temp = arr[i - 1] + (i - 1) + 1; // Update temp with new value
             arr[i] = temp;
             freq[temp]++;
@@ -54,7 +51,7 @@ void get_value_recaman(int x )
 
 
     }
-cout<<arr[x];
+    cout << arr[x];
 }
 
 //[3]
@@ -81,14 +78,62 @@ void kadane_Alg() {
     cout << max_sum;
 }
 
+//[4]
+//Josephus problem
+void Josephus_Alg() {
+
+}
+
+// max sub arrays of equal zeroes and ones
+void max_1_0()
+{
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++)cin>>arr[i];
+    int maxlength = 0;
+    int maxS=0;
+    int maxE=0;
+    for(int s= 0 ;s<n;s++)
+    {
+        int localmax=0;
+        int zero=0,one=0;
+        for(int e=s;e<n;e++ )
+        {
+            if(arr[e] == 0)zero++;
+            else one++;
+            localmax++;
+            if(zero==one)
+            {
+                maxlength = max(maxlength,localmax);
+                if(maxlength==localmax)
+                {
+                    maxE=e;
+                    maxS=s;
+                }
+            }
+
+        }
+
+
+    }
+    if(maxlength == 0)cout<<"NOT FOUND!!";
+    else
+    {
+        cout<<maxlength<<endl;
+        cout<<"start: "<<maxS<<"  "<<"end: "<<maxE;
+    }
 
 
 
+
+}
 
 
 int main() {
     // countsort();
-   //  get_value_recaman(7);
-  //  kadane_Alg();
-
+    //  get_value_recaman(7);
+    //  kadane_Alg();
+    //Josephus_Alg();
+    //  max_1_0();
 }
