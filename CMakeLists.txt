@@ -3,5 +3,5 @@ project(mastering_4_critical_Cpp_skills)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(mastering_4_critical_Cpp_skills
-        "array problems.cpp")
+add_executable(array_problems array_problems.cpp)
+add_executable(strings strings.cpp)

@@ -41,37 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/mastering-4-critical-Cpp-skills/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target mastering_4_critical_Cpp_skills
+# Object build statements for EXECUTABLE target array_problems
 
 
 #############################################
-# Order-only phony target for mastering_4_critical_Cpp_skills
+# Order-only phony target for array_problems
 
-build cmake_object_order_depends_target_mastering_4_critical_Cpp_skills: phony || CMakeFiles/mastering_4_critical_Cpp_skills.dir
+build cmake_object_order_depends_target_array_problems: phony || CMakeFiles/array_problems.dir
 
-build CMakeFiles/mastering_4_critical_Cpp_skills.dir/array_problems.cpp.obj: CXX_COMPILER__mastering_4_critical_Cpp_skills_unscanned_Debug D$:/mastering-4-critical-Cpp-skills/array$ problems.cpp || cmake_object_order_depends_target_mastering_4_critical_Cpp_skills
-  DEP_FILE = CMakeFiles\mastering_4_critical_Cpp_skills.dir\array_problems.cpp.obj.d
+build CMakeFiles/array_problems.dir/array_problems.cpp.obj: CXX_COMPILER__array_problems_unscanned_Debug D$:/mastering-4-critical-Cpp-skills/array_problems.cpp || cmake_object_order_depends_target_array_problems
+  DEP_FILE = CMakeFiles\array_problems.dir\array_problems.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\mastering_4_critical_Cpp_skills.dir
-  OBJECT_FILE_DIR = CMakeFiles\mastering_4_critical_Cpp_skills.dir
+  OBJECT_DIR = CMakeFiles\array_problems.dir
+  OBJECT_FILE_DIR = CMakeFiles\array_problems.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target mastering_4_critical_Cpp_skills
+# Link build statements for EXECUTABLE target array_problems
 
 
 #############################################
-# Link the executable mastering_4_critical_Cpp_skills.exe
+# Link the executable array_problems.exe
 
-build mastering_4_critical_Cpp_skills.exe: CXX_EXECUTABLE_LINKER__mastering_4_critical_Cpp_skills_Debug CMakeFiles/mastering_4_critical_Cpp_skills.dir/array_problems.cpp.obj
+build array_problems.exe: CXX_EXECUTABLE_LINKER__array_problems_Debug CMakeFiles/array_problems.dir/array_problems.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\mastering_4_critical_Cpp_skills.dir
+  OBJECT_DIR = CMakeFiles\array_problems.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = mastering_4_critical_Cpp_skills.exe
-  TARGET_IMPLIB = libmastering_4_critical_Cpp_skills.dll.a
-  TARGET_PDB = mastering_4_critical_Cpp_skills.exe.dbg
+  TARGET_FILE = array_problems.exe
+  TARGET_IMPLIB = libarray_problems.dll.a
+  TARGET_PDB = array_problems.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target strings
+
+
+#############################################
+# Order-only phony target for strings
+
+build cmake_object_order_depends_target_strings: phony || CMakeFiles/strings.dir
+
+build CMakeFiles/strings.dir/strings.cpp.obj: CXX_COMPILER__strings_unscanned_Debug D$:/mastering-4-critical-Cpp-skills/strings.cpp || cmake_object_order_depends_target_strings
+  DEP_FILE = CMakeFiles\strings.dir\strings.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\strings.dir
+  OBJECT_FILE_DIR = CMakeFiles\strings.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target strings
+
+
+#############################################
+# Link the executable strings.exe
+
+build strings.exe: CXX_EXECUTABLE_LINKER__strings_Debug CMakeFiles/strings.dir/strings.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\strings.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = strings.exe
+  TARGET_IMPLIB = libstrings.dll.a
+  TARGET_PDB = strings.exe.dbg
 
 
 #############################################
@@ -99,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build mastering_4_critical_Cpp_skills: phony mastering_4_critical_Cpp_skills.exe
+build array_problems: phony array_problems.exe
+
+build strings: phony strings.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +144,7 @@ build mastering_4_critical_Cpp_skills: phony mastering_4_critical_Cpp_skills.exe
 #############################################
 # Folder: D:/mastering-4-critical-Cpp-skills/cmake-build-debug
 
-build all: phony mastering_4_critical_Cpp_skills.exe
+build all: phony array_problems.exe strings.exe
 
 # =============================================================================
 # Built-in targets

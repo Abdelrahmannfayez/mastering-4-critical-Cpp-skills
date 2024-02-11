@@ -78,11 +78,7 @@ void kadane_Alg() {
     cout << max_sum;
 }
 
-//[4]
-//Josephus problem
-void Josephus_Alg() {
 
-}
 
 // max sub arrays of equal zeroes and ones
 void max_1_0()
@@ -134,6 +130,5 @@ int main() {
     // countsort();
     //  get_value_recaman(7);
     //  kadane_Alg();
-    //Josephus_Alg();
     //  max_1_0();
 }
