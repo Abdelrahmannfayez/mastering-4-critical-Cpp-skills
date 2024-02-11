@@ -52,10 +52,42 @@ void group(string x)
 
     }
 }
+//[4] adding 5555 to long number x which is at least 6 digits
+
+void add(string x)
+{
+
+    int carry = 0;
+    for(int i = 0 ; i < x.size();i++ )
+    {
+
+        int num = x[ x.size() - i - 1  ] - '0';
+        if(i < 4)
+        {
+           num+=5;
+        }
+        num+=carry;
+        if(num >=10 ) {
+            carry = 1;
+            num-=10;
+        }
+        else
+        {
+            carry = 0;
+        }
+        x[ x.size() - i - 1  ] = num+'0' ;
+
+    }
+    if(carry)cout<<1;
+    cout<<x;
+
+
+}
 
 int main() {
 
     // is_substring("abcd" , "ab");
     //  is_subsequence("abcdefg" , "adefh");
     // group("aaabbbbccccefghhhh");
+     //add("666666");
 }
