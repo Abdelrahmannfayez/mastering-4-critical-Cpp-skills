@@ -1,6 +1,6 @@
 # mastering4CriticalSkills_C++
-C++ problems &amp; solutions
-course link: https://www.udemy.com/course/cpp-4skills/ <br>
+C++ problems &amp; solutions <br />
+course link: https://www.udemy.com/course/cpp-4skills/ 
 
 This repository contains solutions to problems from Dr. Mustafa Saad's course on mastering four critical skills in C++.
 
