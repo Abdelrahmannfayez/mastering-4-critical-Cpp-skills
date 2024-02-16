@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -45,6 +47,13 @@
 					"id" : "MultiDim_Array::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-MultiDim_Array-Debug-07a58255f221c5a0b7ab.json",
 					"name" : "MultiDim_Array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MultiDim_Array_Problems::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MultiDim_Array_Problems-Debug-466781bfcd8daf118e8c.json",
+					"name" : "MultiDim_Array_Problems",
 					"projectIndex" : 0
 				},
 				{
