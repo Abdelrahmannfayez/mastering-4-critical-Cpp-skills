@@ -91,7 +91,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.MultiDim_Array">
+  <component name="RunManager" selected="Batch.auto_push">
     <configuration name="auto_push" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="mastering-4-critical-Cpp-skills" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,7 +154,7 @@
       <workItem from="1707643040531" duration="304000" />
       <workItem from="1707643357003" duration="4496000" />
       <workItem from="1707660836596" duration="1782000" />
-      <workItem from="1708087015893" duration="4754000" />
+      <workItem from="1708087015893" duration="5186000" />
     </task>
     <servers />
   </component>
