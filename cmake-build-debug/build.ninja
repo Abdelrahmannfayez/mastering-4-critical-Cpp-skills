@@ -106,6 +106,39 @@ build strings.exe: CXX_EXECUTABLE_LINKER__strings_Debug CMakeFiles/strings.dir/s
   TARGET_IMPLIB = libstrings.dll.a
   TARGET_PDB = strings.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target MultiDim_Array
+
+
+#############################################
+# Order-only phony target for MultiDim_Array
+
+build cmake_object_order_depends_target_MultiDim_Array: phony || CMakeFiles/MultiDim_Array.dir
+
+build CMakeFiles/MultiDim_Array.dir/MultiDim_Array.cpp.obj: CXX_COMPILER__MultiDim_Array_unscanned_Debug D$:/mastering-4-critical-Cpp-skills/MultiDim_Array.cpp || cmake_object_order_depends_target_MultiDim_Array
+  DEP_FILE = CMakeFiles\MultiDim_Array.dir\MultiDim_Array.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MultiDim_Array.dir
+  OBJECT_FILE_DIR = CMakeFiles\MultiDim_Array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MultiDim_Array
+
+
+#############################################
+# Link the executable MultiDim_Array.exe
+
+build MultiDim_Array.exe: CXX_EXECUTABLE_LINKER__MultiDim_Array_Debug CMakeFiles/MultiDim_Array.dir/MultiDim_Array.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MultiDim_Array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MultiDim_Array.exe
+  TARGET_IMPLIB = libMultiDim_Array.dll.a
+  TARGET_PDB = MultiDim_Array.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,6 +165,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build MultiDim_Array: phony MultiDim_Array.exe
+
 build array_problems: phony array_problems.exe
 
 build strings: phony strings.exe
@@ -144,7 +179,7 @@ build strings: phony strings.exe
 #############################################
 # Folder: D:/mastering-4-critical-Cpp-skills/cmake-build-debug
 
-build all: phony array_problems.exe strings.exe
+build all: phony array_problems.exe strings.exe MultiDim_Array.exe
 
 # =============================================================================
 # Built-in targets
