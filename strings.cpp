@@ -106,6 +106,7 @@ void replace(string x , string pattern , string to )
         if(check(x,pattern,pos))
         {
            res+=to;
+           pos+=pattern.size()-1;
         }
         else
             res+=x[pos];
@@ -120,5 +121,5 @@ int main() {
     //  is_subsequence("abcdefg" , "adefh");
     // group("aaabbbbccccefghhhh");
      //add("666666");
-    replace("IamLegend" , "Legend" , "GREAT");
+   // replace("I am Legend" , "Legend" , "GREAT");
 }

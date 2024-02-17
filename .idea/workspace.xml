@@ -24,7 +24,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92178bf5-6f75-4c85-8966-b5d6bfc5bcdd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/strings.dir/strings.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/strings.dir/strings.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/strings.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/strings.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/strings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strings.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +87,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Batch.auto_push">
+  <component name="RunManager" selected="CMake Application.strings">
     <configuration name="auto_push" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="mastering-4-critical-Cpp-skills" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,7 +154,7 @@
       <workItem from="1708087015893" duration="5277000" />
       <workItem from="1708097985813" duration="3018000" />
       <workItem from="1708110681500" duration="78000" />
-      <workItem from="1708202031279" duration="334000" />
+      <workItem from="1708202031279" duration="903000" />
     </task>
     <servers />
   </component>
