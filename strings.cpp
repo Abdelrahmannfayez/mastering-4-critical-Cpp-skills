@@ -84,10 +84,41 @@ void add(string x)
 
 }
 
+//----------------------------------
+//[5] replace substring with another
+//----------------------------------
+bool check(string x , string pattern , int pos)
+{
+    int j=0;
+    for(int i =pos ;i<(pos+pattern.size());i++)
+    {
+        if(x[i]!= pattern[j])return false;
+        j++;
+    }
+    return true;
+}
+
+void replace(string x , string pattern , string to )
+{
+    string res;
+    for(int pos=0;pos<x.size();pos++)
+    {
+        if(check(x,pattern,pos))
+        {
+           res+=to;
+        }
+        else
+            res+=x[pos];
+    }
+    cout<<res;
+}
+
+
 int main() {
 
     // is_substring("abcd" , "ab");
     //  is_subsequence("abcdefg" , "adefh");
     // group("aaabbbbccccefghhhh");
      //add("666666");
+    replace("IamLegend" , "Legend" , "GREAT");
 }

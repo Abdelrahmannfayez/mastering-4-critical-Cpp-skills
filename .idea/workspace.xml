@@ -24,12 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92178bf5-6f75-4c85-8966-b5d6bfc5bcdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MultiDim_Array_Problems.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/strings.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/ClionSetup_CompetitiveProgramming",
+    "last_opened_file_path": "D:/mastering-4-critical-Cpp-skills",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,7 +83,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.MultiDim_Array_Problems">
+  <component name="RunManager" selected="Batch.auto_push">
     <configuration name="auto_push" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="mastering-4-critical-Cpp-skills" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,11 +103,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="array_problems" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mastering_4_critical_Cpp_skills" TARGET_NAME="array_problems" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mastering_4_critical_Cpp_skills" RUN_TARGET_NAME="array_problems">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -124,9 +115,9 @@
     </configuration>
     <list>
       <item itemvalue="Batch.auto_push" />
-      <item itemvalue="CMake Application.array_problems" />
       <item itemvalue="CMake Application.MultiDim_Array" />
       <item itemvalue="CMake Application.MultiDim_Array_Problems" />
+      <item itemvalue="CMake Application.array_problems" />
       <item itemvalue="CMake Application.strings" />
     </list>
     <recent_temporary>
@@ -158,6 +149,8 @@
       <workItem from="1707660836596" duration="1782000" />
       <workItem from="1708087015893" duration="5277000" />
       <workItem from="1708097985813" duration="3018000" />
+      <workItem from="1708110681500" duration="78000" />
+      <workItem from="1708202031279" duration="334000" />
     </task>
     <servers />
   </component>
